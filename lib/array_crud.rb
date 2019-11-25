@@ -43,8 +43,7 @@ end
 
 def update_element_from_index(array, index_number, element)
 []
-puts array
 array.delete_at(index_number)
 array.insert(index_number,element)
-puts array
+array(index_number)
 end
